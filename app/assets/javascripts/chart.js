@@ -1,6 +1,6 @@
 var createChart = function() {
   $.ajax({
-    url: "http://localhost:3000/classrooms/7",
+    url: "http://classalyze-demo-staging.herokuapp.com/classrooms/1",
     type: "GET",
     dataType : "json",
 
