@@ -1,6 +1,4 @@
-json.(@student, :id, :name)
-
-json.tests @student.tests_taken do |tt|
-  json.name tt.test.name
-  json.score tt.score
+json.array! @student.tests_taken do |tt|
+  json.x tt.test.name
+  json.y tt.score
 end
