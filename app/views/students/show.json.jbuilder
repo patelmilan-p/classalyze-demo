@@ -1,1 +1,4 @@
-json.extract! @student, :id, :name, :created_at, :updated_at
+json.array! @student.tests_taken do |tt|
+  json.x tt.test.name
+  json.y tt.score
+end
