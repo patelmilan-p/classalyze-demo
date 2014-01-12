@@ -50,3 +50,4 @@ gem 'puma'
 gem 'foreman', group: [:development, :test]
 gem 'haml-rails', group: [:development, :test]
 gem 'bootstrap-generators', '~> 3.0.2'
+gem 'rails_12factor', group: :production
