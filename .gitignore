@@ -14,3 +14,12 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+debug.log
+
+/config/database.yml
+\#*
+**/*.db
+*~
+.#*
+.sass-cache/
+*.dump
