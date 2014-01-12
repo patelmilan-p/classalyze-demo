@@ -11,7 +11,7 @@ var createChart = function() {
                     key: 'Student 7',
                     color: '#ff7f0e' },
                   { values: initial.concat(json.classroom),
-                    key: 'Classroom 9A',
+                    key: 'Class 9A',
                     color: '#2ca02c' }];
 
         // create line chart
