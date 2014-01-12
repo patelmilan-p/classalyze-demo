@@ -1,4 +1,4 @@
 class Student < ActiveRecord::Base
   belongs_to :classroom
-  has_and_belongs_to_many :tests
+  has_many :tests, through: :tests_taken
 end
